@@ -1,0 +1,87 @@
+body {
+  background-color:rgb(255, 132, 0);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: not-allowed;
+}
+
+a {
+  font-size: 18px;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+button:hover:enabled {
+  background-color: red;
+  cursor: pointer;
+}
+/* Body design */
+body {
+  background-color: #f0f0f0; /* Page background color */
+  font-family: Arial, sans-serif; /* Nice text style */
+  text-align: center; /* Center lo text pettaali */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main heading design */
+h1 {
+  color: darkblue; /* Heading color */
+  font-size: 36px; /* Big font */
+  margin-bottom: 30px;
+}
+
+/* Sub heading design */
+h2 {
+  color: darkgreen;
+  font-size: 24px;
+}
+
+/* Buttons design */
+button {
+  background-color: red; /* Button color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button size */
+  border: none; /* No border */
+  border-radius: 5px; /* Smooth corners */
+  cursor: pointer; /* Hand symbol when hover */
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Disabled button (Coming Soon) design */
+button:disabled {
+  background-color: grey; /* Disabled color */
+  cursor: not-allowed; /* No click symbol */
+}
+
+/* Links design */
+a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  color: darkred;
+  text-decoration: none; /* No underline */
+}
+
+/* Link hover design */
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
